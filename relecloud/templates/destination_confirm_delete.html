@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+ReleCloud - Confirm Deletion
+{% endblock title %}
+
+{% block content %}
+<h1>Confirm Deletion</h1>
+<p>Are you sure you want to delete the destination "{{ destination }}"?</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Confirm Deletion</button>
+    <a href="{% url 'destination_detail' destination.id %}" class="btn btn-secondary">Cancel</a>
+</form>
+
+{% endblock content %}
