@@ -29,6 +29,9 @@ DEBUG = False
 ALLOWED_HOSTS = ["relecloudmadrid.azurewebsites.net"]
 CSRF_TRUSTED_ORIGINS = ["https://relecloudmadrid.azurewebsites.net"]
 
+#ALLOWED_HOSTS = ["relecloudufv.azurewebsites.net"]
+#CSRF_TRUSTED_ORIGINS = ["https://relecloudufv.azurewebsites.net"]
+
 # Application definition
 
 INSTALLED_APPS = [
