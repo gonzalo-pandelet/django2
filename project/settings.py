@@ -23,11 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5fv0d)ka2ay6ja9gq-h(osp)-k0y&95skuk$_tn#u&&6)$++rl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-#DEBUG = True
+#DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["relecloudmadrid.azurewebsites.net"]
-CSRF_TRUSTED_ORIGINS = ["https://relecloudmadrid.azurewebsites.net"]
+#ALLOWED_HOSTS = ["relecloudmadrid.azurewebsites.net"]
+#CSRF_TRUSTED_ORIGINS = ["https://relecloudmadrid.azurewebsites.net"]
 
 #ALLOWED_HOSTS = ["relecloudufv.azurewebsites.net"]
 #CSRF_TRUSTED_ORIGINS = ["https://relecloudufv.azurewebsites.net"]
