@@ -3,12 +3,15 @@ from django.urls import reverse_lazy
 from . import models
 from django.views import generic
 from django.contrib.messages.views import SuccessMessageMixin
+from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
+    #return HttpResponse("Hello, World!")
 
-def about(request):
+
+def nosotros(request):
     return render(request, 'about.html')
 
 def destinations(request):
